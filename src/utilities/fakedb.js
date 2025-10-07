@@ -19,7 +19,8 @@ const removeFromDb = id => {
         delete shoppingCart[id];
         localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
     }
-}
+}   
+
 
 const getShoppingCart = () => {
     let shoppingCart = {};

@@ -33,3 +33,6 @@
 .pagination button{
     margin-right: 40px;
 }
+.pagination .selected{
+    background-color: greenyellow;
+}
